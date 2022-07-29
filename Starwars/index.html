@@ -1,0 +1,77 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STAR WARS</title>
+        <link rel="stylesheet" href="/Starwars/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <script src="/Starwars/swapi.js"></script>
+    </head>
+
+    <body>
+
+        <div id= "Home" class="boobafet">
+            <h2>Personajes de Star Wars</h2>
+        </div>
+
+        <div id="Boton">
+            <div id="nombreInput2">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Personaje
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" onclick="cambioNombreLuke()">Luke Skywalker</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreC3PO()">C-3PO</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreR2D2()">R2-D2</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreDarth()">Darth Vader</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreLeia()">Leia Organa</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreOwen()">Owen Lars</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreBeru()">Beru Whitesun Lars</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreR5D4()">R5-D4</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreBiggs()">Biggs Darklighter</a></li>
+                  <li><a class="dropdown-item" onclick="cambioNombreObi()">Obi-Wan Kenobi</a></li>
+                </ul>
+              </div>
+
+              
+              <input type="text" id="nombreInput" value="">
+              <button type="button" class="btn btn-secondary" onclick="buscarBtn()">Buscar</button>
+                <br>
+
+        </div>
+
+        <section id="info">
+            <div id="container">
+                <br>
+                <h2>¿Quieres saber más acerca de algún Personaje?</h2>
+                <p>Conoce más acerca de tu personaje favorito de Starwars, solo elige en la lista,<br>  presiona buscar y descubre bastantes datos interesantes sobre este</p>    
+                <img class="stoorm" src="https://i.blogs.es/1da08b/1366_2000-9-/1366_2000.jpeg" alt="PersonajesImg">
+            </div>
+
+            <div id="descripcion">
+                <img class="stoorm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png" alt="Darth">
+                <figcaption>¿Que es Star Wars?</figcaption>
+                <p>Star Wars es una franquicia y universo compartido compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense George Lucas en la década de 1970, y producidas y distribuidas por The Walt Disney Company a partir de 2012. Su trama describe las vivencias de un grupo de personajes que habitan en una galaxia ficticia e interactúan con elementos como «la Fuerza», un campo de energía metafísico y omnipresente que posee un «lado luminoso» impulsado por la sabiduría, la nobleza y la justicia y utilizado por los Jedi, y un «lado oscuro» usado por los Sith y provocado por la ira, el miedo y el odio</p>
+            </div>   
+
+        </section>
+
+        <script src="/Starwars/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+        <footer>
+            <h3>EnriqueMj™</h3>
+        </footer id="more">
+
+    </body>
+</html>
+
+
+
+
+
+   
+
